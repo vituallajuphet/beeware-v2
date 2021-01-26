@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.4
+Name: test
+Formal-Name: test
+App-ID: com.example.test
+Version: 0.0.1
+Home-page: https://example.com/test
+Author: opet
+Author-email: opet@example.com
+Summary: this is test

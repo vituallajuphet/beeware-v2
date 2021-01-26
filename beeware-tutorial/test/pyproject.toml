@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "test"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/test"
+license = "BSD license"
+author = 'opet'
+author_email = "opet@example.com"
+
+[tool.briefcase.app.test]
+formal_name = "test"
+description = "this is test"
+icon = "src/test/resources/test"
+sources = ['src/test']
+requires = []
+
+
+[tool.briefcase.app.test.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.test.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.test.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.test.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.test.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
