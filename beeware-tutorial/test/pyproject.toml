@@ -1,15 +1,15 @@
 [tool.briefcase]
-project_name = "Unit Converter"
+project_name = "Franderney`s Unit Converter2"
 bundle = "com.example"
 version = "0.0.1"
 url = "https://example.com/test"
 license = "BSD license"
-author = 'opet'
+author = 'Francis Jude A. Jervoso'
 author_email = "opet@example.com"
 
 [tool.briefcase.app.test]
-formal_name = "Unit Converter"
-description = "this is test"
+formal_name = "Franderney`s Unit Converter2"
+description = "Franderney`s Unit Converter2"
 icon = "src/test/resources/test"
 sources = ['src/test']
 requires = []
