@@ -1,5 +1,5 @@
 [tool.briefcase]
-project_name = "test"
+project_name = "Unit Converter"
 bundle = "com.example"
 version = "0.0.1"
 url = "https://example.com/test"
@@ -8,7 +8,7 @@ author = 'opet'
 author_email = "opet@example.com"
 
 [tool.briefcase.app.test]
-formal_name = "test"
+formal_name = "Unit Converter"
 description = "this is test"
 icon = "src/test/resources/test"
 sources = ['src/test']
